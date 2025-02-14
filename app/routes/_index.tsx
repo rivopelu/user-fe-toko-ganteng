@@ -1,7 +1,8 @@
 import type { MetaFunction } from '@remix-run/node';
+import { BaseMetaData } from '~/constants/MetaData';
 
 export const meta: MetaFunction = () => {
-  return [{ title: 'Toko Ganteng' }, { name: 'description', content: 'Welcome to Toko ganteng' }];
+  return BaseMetaData();
 };
 
 export default function Index() {
