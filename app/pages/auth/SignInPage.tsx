@@ -1,4 +1,7 @@
 import { Card, CardBody } from '~/components/Card';
+import { InputText } from '~/components/InputText';
+import { Divider } from '~/components/Divider';
+import { Button } from '~/components/Button';
 
 export function SignInPage() {
   return (
@@ -9,6 +12,13 @@ export function SignInPage() {
         <Card>
           <CardBody>
             <h1>SIGN IN</h1>
+          </CardBody>
+          <Divider />
+
+          <CardBody className={'grid gap-4'}>
+            <InputText required id={'email'} label={'email'} placeholder={'sialahkan masukan email'} />
+            <InputText required id={'password'} label={'Kata sandi'} placeholder={'sialahkan masukan kata sandi'} />
+            <Button rounded={'medium'}>SIGN IN</Button>
           </CardBody>
         </Card>
         <h1>SIGN IN</h1>
