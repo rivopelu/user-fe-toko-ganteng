@@ -13,7 +13,7 @@ export function InputText(props: IProps) {
         type={props.type}
         placeholder={'placeholder'}
         className={twMerge(
-          'border-2 py-1 px-2 rounded-md w-full bg-white',
+          'border-2 py-2 px-3 rounded-md w-full bg-white',
           'focus:outline-black/50 focus:ring-primary-main focus:bg-primary-main/5',
         )}
         id={props.id}

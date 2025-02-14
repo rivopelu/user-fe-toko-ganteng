@@ -20,7 +20,7 @@ export function Button(props: IProps) {
   return (
     <button
       className={twMerge(
-        'bg-white border-2 w-full duration-200 py-1 px-2 cursor-pointer cursor-pointer ',
+        'bg-white border-2 w-full duration-200 py-2 px-4 cursor-pointer cursor-pointer ',
         'hover:bg-primary-main/50  ',
         'active:bg-primary-main/20 active:scale-95 ',
         checkRounded(),

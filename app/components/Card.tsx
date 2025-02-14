@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import { twMerge } from 'tailwind-merge';
 
 export function Card(props: IProps) {
-  return <div className={'border-2 rounded-lg'}>{props.children}</div>;
+  return <div className={'border-2 bg-white rounded-lg'}>{props.children}</div>;
 }
 
 export function CardBody(props: IProps) {
